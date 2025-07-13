@@ -146,6 +146,18 @@ class Parrot(Pet):
 
 if __name__ == "__main__":
 
+    pets = [
+        Dog("Josh", 3, "Helen"),
+        Cat("Daisy", 5, "Ann"),
+        Parrot("Joseph", 1, "Mitch"),
+
+    ]
+
+    for pet in pets:
+        print(pet.voice())
+
+
+
     parrot = Parrot("Sam", 2, "Mike")
 
     print(parrot.name)
